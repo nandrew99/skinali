@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,IAAI;CACf",
     "sources": [
-        "../sass/style.sass"
+        "../sass/style.scss",
+        "../sass/_grid.scss",
+        "../sass/blocks/_navbar.sass"
     ],
     "names": [],
     "file": "style.css"
