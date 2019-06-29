@@ -1,0 +1,32 @@
+body{
+    @include light;
+    color: $text_color;
+}
+
+.navbar_button_o{
+    text-transform: uppercase;
+    border: 2px solid $primary;
+    padding: 17px 22px;
+    font-size: 12px;
+    background-color: #ffffff;
+    @include bold;
+    color: $primary;
+    &:hover{
+        background-color: $primary;
+        color: #ffffff;
+    }
+}
+
+.button{
+    text-transform: uppercase;
+    border: none;
+    padding: 25px 45px;
+    font-size: 12px;
+    background-color: $primary;
+    @include bold;
+    color: #ffffff;
+    &:hover{
+        background-color: #ffffff;
+        color: $primary;
+    }
+}

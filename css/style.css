@@ -7,4 +7,215 @@
   max-width: 1170px;
   margin: auto;
 }
+
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url("../fonts/ProximaNova-Semibold.eot");
+  src: url("../fonts/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Semibold.woff") format("woff"), url("../fonts/ProximaNova-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.navbar_wrap {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 80px;
+}
+
+.navbar_mobile_phone {
+  text-align: right;
+}
+
+.navbar_mobile_phone_link {
+  display: block;
+  font-size: 19px;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  text-decoration: none;
+  color: #262626;
+}
+
+.navbar_mobile_phone_link:hover {
+  color: #89a9eb;
+}
+
+.navbar_home_phone {
+  text-align: right;
+}
+
+.navbar_home_phone_link {
+  display: block;
+  font-size: 19px;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  text-decoration: none;
+  color: #262626;
+}
+
+.navbar_home_phone_link:hover {
+  color: #89a9eb;
+}
+
+.navbar_email {
+  display: block;
+  font-size: 14px;
+  font-family: 'Proxima Nova Light', sans-serif;
+  text-decoration: none;
+  color: #262626;
+}
+
+.navbar_email:hover {
+  color: #89a9eb;
+}
+
+.menu {
+  background-color: #507fe1;
+  position: fixed;
+  top: 80px;
+  padding: 16px 0;
+  width: 100%;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.menu_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu_active {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+.menu_link {
+  color: #ffffff;
+  text-decoration: none;
+  font-style: 17px;
+  text-transform: uppercase;
+}
+
+.menu_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+  border: none;
+  border-right: 1px solid rgba(81, 11, 186, 0.6);
+  border-left: 1px solid rgba(81, 11, 186, 0.6);
+  height: 80px;
+  width: 70px;
+}
+
+.menu_button_line {
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: #89a9eb;
+  margin: 2px 0;
+}
+
+.logo_txt {
+  display: block;
+  font-size: 18x;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  text-transform: uppercase;
+}
+
+.logo_description {
+  display: block;
+  font-size: 14x;
+  margin-top: 5px;
+}
+
+.hero {
+  background: #f1f1f1 url(../../img/hero.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 270px;
+}
+
+.hero_title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.hero_subtitle {
+  display: block;
+  font-size: 30px;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: 'Proxima Nova Light', sans-serif;
+  color: #262626;
+}
+
+.navbar_button_o {
+  text-transform: uppercase;
+  border: 2px solid #507fe1;
+  padding: 17px 22px;
+  font-size: 12px;
+  background-color: #ffffff;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  color: #507fe1;
+}
+
+.navbar_button_o:hover {
+  background-color: #507fe1;
+  color: #ffffff;
+}
+
+.button {
+  text-transform: uppercase;
+  border: none;
+  padding: 25px 45px;
+  font-size: 12px;
+  background-color: #507fe1;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  color: #ffffff;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #507fe1;
+}
 /*# sourceMappingURL=style.css.map */
