@@ -15,7 +15,11 @@ body{
         background-color: $primary;
         color: #ffffff;
     }
+    @media (max-width:600px) {
+        font-size: 10px;
+        }
 }
+
 
 .button{
     text-transform: uppercase;

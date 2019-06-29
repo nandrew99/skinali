@@ -64,7 +64,7 @@
     // Проблема с выпадающим меню
     transform: translateY(-100%) ;  
     &_active{
-        transform: rotateY(0);
+        transform: rotateY(100%);
     }
     &_link{
         color: #ffffff;
@@ -106,5 +106,21 @@
         display: block;
         font-size: 14x;
         margin-top: 5px;
+    }
+}
+
+@media (max-width:991px) {
+    .navbar{
+        &_mobile_phone, &_home_phone{
+            display: none;
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .navbar{
+        &_logo{
+            display: none;
+        }
     }
 }
