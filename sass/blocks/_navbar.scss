@@ -62,10 +62,11 @@
     padding: 16px 0;
     width: 100%;
     // Проблема с выпадающим меню
-    transform: translateY(-100%) ;  
-    &_active{
-        transform: rotateY(100%);
-    }
+    // transform: translateY(-100%) ; 
+    opacity: 0; 
+    // &_active{
+    //     // transform: rotateY(100%);
+    // }
     &_link{
         color: #ffffff;
         text-decoration: none;
