@@ -34,3 +34,40 @@ body{
         color: $primary;
     }
 }
+
+.bg-secondary{
+    background:$bg-secondary;
+}
+.input{
+    height: 80px;
+    padding-left: 30px;
+    border: 1px solid #dddddd;
+}
+
+input[type="checkbox"]{
+    display: none;
+    &:checked +label::before{
+            background-color: $primary;
+    }
+}    
+
+// .checkbox{
+//     &_label{
+//         display: flex;
+//         align-items: center;
+//         margin-right: 42px;
+//         &:hover{
+//             cursor: pointer;
+//         }
+//         &::before{
+//             content: " ";
+//             margin-top: 15px;
+//             margin-right: 20px;
+//             width: 30px;
+//             height: 30px;
+//             border: 1px solid #dddddd;
+//         }
+//     }
+// }
+
+// проблема 2
