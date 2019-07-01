@@ -1,0 +1,22 @@
+.features{
+    &_block{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    &_item{
+        flex-basis: 33.33%;
+        text-align: center;
+    }
+    &_img{
+        padding: 40px 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    &_txt{
+        font-size: 20px;
+        @include light;
+    }
+}

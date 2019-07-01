@@ -71,3 +71,10 @@ input[type="checkbox"]{
 // }
 
 // проблема 2
+
+.sections_title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    @include bold;
+}
