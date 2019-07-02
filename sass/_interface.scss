@@ -2,7 +2,13 @@ body{
     @include light;
     color: $text_color;
 }
-
+.section__title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    @include bold;
+    text-transform: uppercase;
+}
 .navbar_button_o{
     text-transform: uppercase;
     border: 2px solid $primary;
@@ -42,6 +48,9 @@ body{
     height: 80px;
     padding-left: 30px;
     border: 1px solid #dddddd;
+    @media screen and (max-width: 768px) {
+        height: 40px;
+    }
 }
 
 input[type="checkbox"]{
@@ -77,4 +86,5 @@ input[type="checkbox"]{
     margin-top: 50px;
     font-size: 30px;
     @include bold;
+    text-transform: uppercase;
 }
